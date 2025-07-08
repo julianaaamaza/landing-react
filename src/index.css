@@ -1,0 +1,20 @@
+/* Solo una importación combinada de Creepster y Merriweather */
+@import url('https://fonts.googleapis.com/css2?family=Creepster&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+@import 'bootstrap-icons/font/bootstrap-icons.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fuente principal del sitio */
+body {
+  font-family: "Creepster", system-ui;
+  background-color: rgb(94, 10, 4);
+}
+
+/* Fuente solo para los relatos */
+.fuente-relatos {
+  font-family: 'Merriweather', serif;
+}
+
